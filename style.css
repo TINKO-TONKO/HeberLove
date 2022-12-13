@@ -1,5 +1,18 @@
 body{
     margin: 0;
+    background-image: url(Images/badpicture.jpg);
+    height: 140vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h1{
+    color: white;
+    border-color: black;
+    margin-bottom: 135pt;
+  
+    border-style: solid;
+    background-color: rgb(25, 25, 25, .7);
 }
 
 ul{
@@ -26,28 +39,62 @@ header {
 
 #nav{
     background-image:url(Images/mountimp.jpg);
-    background-position: 100% 0%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border-style: solid;
+    border-left: 5pt;
+    border-width: 10pt;
+
 }
 
+
 p{
+    margin-left: 20vw;
+    margin-right: 20vw;
     display:flex;
     justify-content: center;
     font-size: 15pt;
-    border-style: solid;
     
+    
+}
+
+.articleThings{
+    text-align: center;
+    padding-bottom: 25pt;
     
 }
 
 
 
+a{
+    text-decoration: none;
+    border-color: grey;
+    color: white;
+    font-size: 20pt;
+    border-style: dotted;
+    display: flex;
 
+}
 
-
+article{
+    border-style: solid;
+    margin-top: 5pt;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: rgb(25, 25, 25, .7);
+    color: white;
+    border-color: black;
+    
+}
 li{
    display: flex;
     padding-top: 15vh;
     
 }
+
 li a {
     
     align-items: center;
